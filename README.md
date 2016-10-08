@@ -1,3 +1,7 @@
 # winutils
 
-Get home folder for windows system.
+Get home folder like Document, Fonts, etc.  for windows system.
+
+Example:
+
+folder, err := folder.Folder(&folder.FOLDERID_PublicDocuments)
